@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration:none;
+
+}
+
+.navContainer{
+    /* border: 1px solid blue; */
+    background-color: rgb(46, 46, 46);
+    height: 60px;
+    /* text-align: center; */
+}
+.logo{
+    font-size: 30px;
+    color: rgb(150, 150, 150);
+    padding: 10px 20px 10px 40px;
+    float: left;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+.logo:hover{
+    color: white ;
+    transform:scale(1.1);
+}
+
+
+
